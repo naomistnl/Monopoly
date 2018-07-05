@@ -3,19 +3,23 @@ import java.util.Scanner;
 
 public class Monopoly {
 
-
     public static void main(String[] args) {
-        Scanner diceroll = new Scanner(System.in);
+        //methods
+
+        playerSetup();
+        Monopoly rollmoves = new Monopoly();
+        rollmoves.RollMoves();
 
 
 
+//CommChest community = new CommChest();
 
         Monopoly player = new Monopoly();
         player.playerSetup();
     }
 
     //the initial input/output - this will take the player name, randomly generate a token and output the name, token and initial funds
-    public void playerSetup() {
+    public static void playerSetup() {
         int PlayerMoney = 1500;
         String name;
 
@@ -47,6 +51,8 @@ public class Monopoly {
 
 
     public void RollMoves(){
+        Dice dice = new Dice();
         //where the moves will go
+        Dice.RollDice();
     }
 }
