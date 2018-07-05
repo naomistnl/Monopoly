@@ -41,5 +41,5 @@ public class Property extends Item {
     @Override
     public String toString() {
         return "Board Position " + super.getBoardposition() + " " + "Name: " + name + " " + "Colour: " + colour + " " + "Cost: " + cost;
-     }
+    }
 }
