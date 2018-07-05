@@ -21,8 +21,9 @@ public class CommChest {
         commchest.add("Receive £25 consultancy fee");
         commchest.add("You inherit £100");
 
-        double index = Math.random() * 10;
-        String chest = commchest.get((int) (Math.random()) * 10);
+       double index = Math.random() * 10;
+       String chest = commchest.get((int) (Math.random() * 10));
         System.out.println("Community Chest: " + chest);
+
     }
 }

@@ -51,6 +51,7 @@ public class Monopoly {
 
 
     public void RollMoves(){
+        //create the object of the dice class in order to call its methods
         Dice dice = new Dice();
         //where the moves will go
         Dice.RollDice();

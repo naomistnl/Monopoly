@@ -10,6 +10,8 @@ public class Dice {
     }
 
     public static void RollDice() {
+
+
         Scanner dice = new Scanner(System.in);
 
         System.out.println("Type 'throw' to roll the dice");
@@ -20,5 +22,7 @@ public class Dice {
         int sum = dice1 + dice2;
 
         System.out.println("Roll: " + sum);
+
+//        if ();
     }
 }

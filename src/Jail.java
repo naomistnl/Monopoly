@@ -9,13 +9,13 @@ public class Jail {
     }
 
 
-    public void GoToJail() {
+    public static void GoToJail() {
 
 
     MissATurn();
     }
 
-    public void MissATurn() {
+    public static void MissATurn() {
 
     }
 }
