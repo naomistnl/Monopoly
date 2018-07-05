@@ -10,12 +10,12 @@ public class Jail {
 
 
     public static void GoToJail() {
-
+        System.out.println("You are in jail");
 
     MissATurn();
     }
 
     public static void MissATurn() {
-
+        System.out.println("miss a turn");
     }
 }
